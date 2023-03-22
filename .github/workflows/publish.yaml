@@ -20,4 +20,4 @@ jobs:
       - uses: JS-DevTools/npm-publish@v1
         with:
           registry: https://npm.pkg.github.com
-          token: ${{ secrets.ACTION }}
+          token: ${{ secrets.NEW_ACTION }}
