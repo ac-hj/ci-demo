@@ -10,6 +10,8 @@ jobs:
           npm install
           npm run lint 
   publish:
+    permissions:
+      packages: write
     needs: lint
     name: Run publish
     runs-on: ubuntu-latest
